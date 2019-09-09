@@ -1,3 +1,4 @@
+<?php
 $userid = $_GET['userid']; 
 $pwd = $_GET['pwd']; 
 echo "$userid and $pwd ,Hello"; 
@@ -8,3 +9,4 @@ echo "$userid and $pwd ,Hello";
 else 
 { 
 echo "Something went wrong";
+?>
